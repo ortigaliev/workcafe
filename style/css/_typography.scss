@@ -63,45 +63,45 @@
 }
 
 .heading-extra-large{
-  @include set-font-parameters($monrope);
+  @include set-font-parameters;
   font-weight: 600;
   line-height: 79px;
 }
 
 .heading-large{
-  @include set-font-parameters($monrope);
+  @include set-font-parameters;
   font-size: 48px;
   line-height: 65px;
 }
 
 .heading-medium{
-  @include set-font-parameters($monrope);
+  @include set-font-parameters;
   line-height: 49px;
   font-size: 36px;
 }
 
 .heading-small{
-  @include set-font-parameters($monrope);
+  @include set-font-parameters;
   font-size: 26px;
   line-height: 35px;
 }
 
 .content-large{
-  @include set-font-parameters($monrope);
+  @include set-font-parameters;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
 }
 
 .content-medium{
-  @include set-font-parameters($monrope);
+  @include set-font-parameters;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
 }
 
 .content-small{
-  @include set-font-parameters($monrope);
+  @include set-font-parameters;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;

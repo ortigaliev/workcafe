@@ -1,3 +1,66 @@
-@import "colors";
+@import "utilities";
+@import "typography";
 @import "container";
+@import "colors";
 
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  &__left{
+    display: flex;
+    align-items: center;
+
+  }
+
+  &__logo-link{
+    padding: 0;
+    margin: 0;
+    margin-right: 70px;
+  }
+
+  &__logo{
+    object-fit: contain;
+    width: 120px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__site-order{
+    text-decoration: none;
+    @include set-navbar-fonts;
+  }
+
+  &__right{
+    display: flex;
+    align-items: center;
+    
+  }
+
+  &__contact{
+    margin-right: 60px;
+    text-decoration: none;
+    @include set-navbar-fonts;
+  }
+
+  &__login{
+    text-decoration: none;
+    @include set-navbar-fonts;
+
+    &::before{
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      background: url(/icons/login-icon.svg) no-repeat;
+      width: 22px;
+      height: 22px;
+      content: " ";
+      margin-right: 10px;
+    }
+  }
+}

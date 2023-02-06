@@ -1,12 +1,18 @@
-@mixin set-font-parameters($monrope){
+@mixin set-font-parameters{
   font-family: "Manrope", sans-serif;
   font-weight: 600;
   color: #000;
 }
 
+@mixin set-navbar-fonts{
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333;
+}
+
 .btn{
   display: inline-block;
-  background: $btn-light-green;
   color: #000;
   padding: 18px 30px;
   border-radius: 10px;
