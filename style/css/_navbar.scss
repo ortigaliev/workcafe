@@ -10,7 +10,6 @@
   &__left{
     display: flex;
     align-items: center;
-
   }
 
   &__logo-link{
@@ -29,21 +28,23 @@
 
   &__site-order{
     text-decoration: none;
+    @include utilities.set-navbar-fonts;
   }
 
   &__right{
     display: flex;
     align-items: center;
-
   }
 
   &__contact{
     margin-right: 60px;
     text-decoration: none;
+    @include utilities.set-navbar-fonts;
   }
 
   &__login{
     text-decoration: none;
+    @include utilities.set-navbar-fonts;
 
     &::before{
       display: inline-block;

@@ -24,6 +24,10 @@
 }
 .navbar__site-order {
   text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333;
 }
 .navbar__right {
   display: flex;
@@ -32,9 +36,17 @@
 .navbar__contact {
   margin-right: 60px;
   text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333;
 }
 .navbar__login {
   text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333;
 }
 .navbar__login::before {
   display: inline-block;
