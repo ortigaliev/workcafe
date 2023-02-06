@@ -1,0 +1,43 @@
+
+
+.header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 140px;
+
+    &__info {
+      width: 626px;
+    }
+
+    &__title{
+      font-size: 58px;
+      line-height: 79px;
+      padding-bottom: 20px;
+    }
+
+    &__text{
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 400;
+      padding-bottom: 40px;
+    }
+
+    &__img{
+      position: absolute;
+      top: 30px;
+      left: 680px;
+    }
+}
+
+
+.heading-extra-large {
+}
+.header {
+}
+.content-large {
+}
+.btn {
+}
+.header__img {
+}

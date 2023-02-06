@@ -1,8 +1,4 @@
-@import "utilities";
-@import "typography";
-@import "container";
-@import "colors";
-
+@use "utilities";
 
 .navbar {
   display: flex;
@@ -33,24 +29,21 @@
 
   &__site-order{
     text-decoration: none;
-    @include set-navbar-fonts;
   }
 
   &__right{
     display: flex;
     align-items: center;
-    
+
   }
 
   &__contact{
     margin-right: 60px;
     text-decoration: none;
-    @include set-navbar-fonts;
   }
 
   &__login{
     text-decoration: none;
-    @include set-navbar-fonts;
 
     &::before{
       display: inline-block;
