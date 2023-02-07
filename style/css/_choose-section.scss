@@ -1,0 +1,68 @@
+@use "container";
+
+.main-content {
+  position: absolute;
+  top: 1000px;
+}
+
+.choose-section-bg {
+  background-color: #f8f8f8;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.choose-section{
+  display: flex;
+  position: relative;
+  padding: 70px 50px;
+
+  &__title{
+    width: 370px;
+    margin-right: 90px;
+    text-align: left;
+  }
+
+  &__factors{
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+.factor__box{
+  width: 359px;
+
+}
+
+.factor-1 {
+  margin-bottom: 90px;
+}
+
+.factor__icon {
+  padding-bottom: 20px;
+}
+
+.heading-small {
+  margin: 0;
+  padding: 0;
+}
+
+.content-small {
+}
+
+.factor-2 {
+}
+.factor-3 {
+}
+.factor-4 {
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 179px 179px;
+}
+
+.grid-item:not(:nth-child(even)){
+  margin-right: 60px;
+}
