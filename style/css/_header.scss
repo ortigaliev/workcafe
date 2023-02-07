@@ -6,6 +6,7 @@
   position: relative;
   padding-top: 140px;
   padding-bottom: 158px;
+  z-index: -1;
 
     &__info {
       width: 626px;
@@ -28,6 +29,5 @@
       position: absolute;
       top: 30px;
       left: 680px;
-      z-index: 2;
     }
 }

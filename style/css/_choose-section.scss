@@ -14,7 +14,9 @@
 .choose-section{
   display: flex;
   position: relative;
+  /* s */
   padding: 70px 50px;
+  margin-bottom: 150px;
 
   &__title{
     width: 370px;
@@ -45,16 +47,6 @@
 .heading-small {
   margin: 0;
   padding: 0;
-}
-
-.content-small {
-}
-
-.factor-2 {
-}
-.factor-3 {
-}
-.factor-4 {
 }
 
 .grid-container{
