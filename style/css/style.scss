@@ -65,3 +65,44 @@
   background-color: #AFFF2C;
   color: #000;
 }
+
+/* SHET SECTION */
+.shet-wrapper {
+  padding: 0;
+  padding-left: 122px;
+  margin: 0;
+  margin-top: 220px;
+
+  position: relative;
+
+  .shet{
+    margin-bottom: 220px;
+
+    &__img {
+      width: 450px;
+      height: 270px;
+      position: absolute;
+      object-fit: cover;
+    }
+
+    &__img-top{
+   /*    position: absolute; */
+      top: 0;
+      left: 50;
+    }
+
+    &__img-bottom{
+      top: 248px;
+      left: 337px;
+      margin-right: 73px;
+    }
+
+    &__content {
+      position: absolute;
+      max-width: 460px;
+      top: 129px;
+      right: 50px;
+    }
+  }
+
+}
