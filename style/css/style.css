@@ -353,6 +353,7 @@
 .shet-wrapper {
   padding: 0;
   padding-left: 122px;
+  padding-right: 100px;
   margin: 0;
   margin-top: 220px;
   position: relative;
@@ -368,11 +369,11 @@
      object-fit: cover;
 }
 .shet-wrapper .shet__img-top {
-  /*    position: absolute; */
   top: 0;
   left: 50;
 }
 .shet-wrapper .shet__img-bottom {
+  position: absolute;
   top: 248px;
   left: 337px;
   margin-right: 73px;
